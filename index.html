@@ -435,8 +435,7 @@ var RESULTS = {
       "silo_minus_plain": -0.425
     }
   },
-  "verdict": "Trained from scratch, tested on held-out data. The silo cuts attention from N^2 to K^2 pairs. On the order-INsensitive task (plurality) it stays close to the plain model at that lower cost; on the order-SENSITIVE task (first token) it collapses toward chance, because clustering into an unordered set of intents throws order away. So the compression helps where order does not matter and hurts where it does -- a real, measured trade-off, reported as it fell out. Not a win; a map of when each is the right tool.",
-  "trained_utc": null
+  "verdict": "Trained from scratch, tested on held-out data. The silo cuts attention from N^2 to K^2 pairs. On the order-INsensitive task (plurality) it stays close to the plain model at that lower cost; on the order-SENSITIVE task (first token) it collapses toward chance, because clustering into an unordered set of intents throws order away. So the compression helps where order does not matter and hurts where it does -- a real, measured trade-off, reported as it fell out. Not a win; a map of when each is the right tool."
 };
 (function(){
 "use strict";

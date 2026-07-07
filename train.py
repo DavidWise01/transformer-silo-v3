@@ -111,7 +111,6 @@ if __name__ == "__main__":
     t0 = time.time()
     res = run(seed=0)
     res["verdict"] = VERDICT
-    res["trained_utc"] = None  # stamped by the runner, not at import (kept deterministic)
     with open("results.json", "w") as f:
         json.dump(res, f, indent=2)
     for task, row in res["tasks"].items():

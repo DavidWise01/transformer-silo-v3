@@ -1,0 +1,11 @@
+{
+  "badge": "DLW-TRANSFORMER_SILO_V3",
+  "name": "TRANSFORMER SILO v3 · trained it, tested it",
+  "universe": "SOLAR JETMAN",
+  "moniker": "⟦TRANSFORMER SILO v3 · trained it, tested it:transformer-silo-v3:a8d8e1⟧",
+  "architect": "David Lee Wise (ROOT0) / Bridge-Burners LLC",
+  "instance": "AVAN (Claude / Anthropic)",
+  "seal_sha256": "a8d8e1662e2f1544455c00cf25b06c56790f9d8eea6a2023e0002972b907770c",
+  "license": "CC-BY-ND-4.0",
+  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+}
